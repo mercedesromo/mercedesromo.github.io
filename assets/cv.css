@@ -240,27 +240,96 @@
 		***************/
 		
 		section[role=main] h3:after {
-			background:url('../img/pictos-titre.png') no-repeat 11px 10px;
+			
+		}
+
+		section[role=main] .apropos h3:after {
+			background-position: 11px -34px;
+			content: '\f06e';
+			font-size: 32px;
+			font-family: FontAwesome;
+			font-weight: normal;
+			font-style: normal;
+			margin:14px 0px 0px 10px;
+			text-decoration:none;
 		}
 		
 		section[role=main] .competences h3:after {
 			background-position: 11px -34px;
+			content: '\f292';
+			font-size: 32px;
+			font-family: FontAwesome;
+			font-weight: normal;
+			font-style: normal;
+			margin:14px 0px 0px 10px;
+			text-decoration:none;			
 		}
 	
 		section[role=main] .experiences h3:after {
 			background-position: 11px -86px;
+			content: '\f0b1';
+			font-size: 28px;
+			font-family: FontAwesome;
+			font-weight: normal;
+			font-style: normal;
+			margin:14px 0px 0px 10px;
+			text-decoration:none;			
 		}
 		
 		section[role=main] .formations h3:after {
 			background-position: 10px -139px;
+			content: '\f19d';
+			font-size: 28px;
+			font-family: FontAwesome;
+			font-weight: normal;
+			font-style: normal;
+			margin:14px 0px 0px 8px;
+			text-decoration:none;	
 		}
+
+		section[role=main] .idioms h3:after {
+			background-position: 10px -250px;
+			content: '\f0ac';
+			font-size: 28px;
+			font-family: FontAwesome;
+			font-weight: normal;
+			font-style: normal;
+			margin:15px 0px 0px 13px;
+			text-decoration:none;	
+		}
+
+		section[role=main] .courses h3:after {
+			background-position: 10px -250px;
+			content: '\f14b';
+			font-size: 28px;
+			font-family: FontAwesome;
+			font-weight: normal;
+			font-style: normal;
+			margin:15px 0px 0px 13px;
+			text-decoration:none;	
+		}
+		
 		
 		section[role=main] .loisirs h3:after {
 			background-position: 10px -250px;
+			content: '\f0fe';
+			font-size: 28px;
+			font-family: FontAwesome;
+			font-weight: normal;
+			font-style: normal;
+			margin:15px 0px 0px 13px;
+			text-decoration:none;
 		}
 		
 		section[role=main] .contact h3:after {
 			background-position: 11px -194px;
+			content: '\f0e0';
+			font-size: 28px;
+			font-family: FontAwesome;
+			font-weight: normal;
+			font-style: normal;
+			margin:15px 0px 0px 10px;
+			text-decoration:none;
 		}
 	
 	
@@ -278,7 +347,7 @@
 	}
 	
 	.experiences li, .formations li {
-		margin-bottom: 63px;
+		margin-bottom: 3	0px;
 	}
 	
 	.experiences li:last-child, .formations li:last-child {
