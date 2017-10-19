@@ -1,1 +1,0 @@
-# mercedesromo.github.io
